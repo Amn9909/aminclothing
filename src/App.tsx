@@ -8,7 +8,7 @@ const App = () => {
     <div className='w-screen'>
       <Navbar/>
       Main App
-      
+    
       <Card/>
       
     </div>
