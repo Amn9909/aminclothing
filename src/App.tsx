@@ -1,15 +1,17 @@
 import React from 'react'
 import Card from './components/Card'
 import Navbar from './components/Navbar'
+import Home from './pages/Home'
 
 
 const App = () => {
   return (
     <div className='w-screen'>
-      <Navbar/>
+      {/* <Navbar/>
       Main App
     
-      <Card/>
+      <Card/> */}
+      <Home/>
       
     </div>
     
