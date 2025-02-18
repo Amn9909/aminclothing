@@ -1,5 +1,5 @@
 import { Input } from "@/components/ui/input";
-import { CarrotIcon, ShoppingCart } from "lucide-react";
+import {  ShoppingCart } from "lucide-react";
 
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
      {/* full screen search bar  */}
 
      <div className="p-2 flex ">
-        <Input />
+        <Input  />
         <ShoppingCart className="m-2" />
      </div>
 

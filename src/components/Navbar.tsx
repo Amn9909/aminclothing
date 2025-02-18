@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
-    <div className=" flex justify-between bg-green-900 w-[100%] text-white h-16 fixed bottom-2">
-      <ul className="flex text-black">
+    <div className=" flex justify-between bg-green-900 w-[94%] m-1  text-white h-16 fixed bottom-2 rounded-xl  ">
+      <ul className="flex text-black p-4">
         <li className="ml-4">
           <a href="#">Home</a>
         </li>
