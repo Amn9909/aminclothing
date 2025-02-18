@@ -1,11 +1,22 @@
-import { Input } from "@/components/ui/input"
+import { Input } from "@/components/ui/input";
+import { CarrotIcon, ShoppingCart } from "lucide-react";
+
 
 const Home = () => {
-    return (
+  return (
+    <div className="h-full w-full bg-gray-800 rounded-xl">
+     
 
-        <div className="bg-gray-300 h-screen w-screen flex justify-center items-start rounded-xl ">
-            <Input type="email" className="w-96 border-2 border-black rounded-xl " placeholder="Email" />
-        </div>
-    )
-}
-export default Home
+
+
+     {/* full screen search bar  */}
+
+     <div className="p-2 flex ">
+        <Input />
+        <ShoppingCart className="m-2" />
+     </div>
+
+    </div>
+  );
+};
+export default Home;
